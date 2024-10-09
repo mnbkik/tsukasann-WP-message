@@ -1,0 +1,81 @@
+@use "../../global" as *;
+
+.p-point {
+    // padding-top: rem(161);
+    padding-bottom: rem(159.71);
+}
+
+.p-point__inner {
+    position: relative;
+}
+
+.p-point__figure-1 {
+    aspect-ratio: 650/455.379;
+    max-width: rem(650);
+}
+
+.p-point__figure-1 img {
+    height: auto;
+}
+
+.p-point__figure-2 {
+    aspect-ratio: 375/501.518;
+    max-width: rem(375);
+    position: absolute;
+    top: rem(99);
+    left: rem(854);
+}
+
+.p-point__figure-2 img {
+    height: auto;
+}
+
+.p-point__figure-3 {
+    aspect-ratio: 369/258.783;
+    max-width: rem(369);
+    position: absolute;
+    top: rem(704);
+    left: rem(702);
+}
+
+.p-point__figure-3 img {
+    height: auto;
+}
+
+.p-point__text-group {
+    width: rem(489);
+    padding-top: rem(91);
+    margin-left: rem(170);
+}
+
+
+// .p-point__subtitle-group {
+// }
+
+// .p-point__subtitle {
+
+// }
+
+// .p-point__subtitle-en {
+
+// }
+
+.p-point__text {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    line-height: calc(29/16);
+    padding-top: rem(40);
+}
+
+.p-point__button {
+    padding-top: rem(228);
+    display: flex;
+    justify-content: center;
+}
+
+.p-point__line {
+    width: rem(800);
+    margin-inline: auto;
+    border-bottom: 1px solid var(--black);
+    margin-top: rem(159.71);
+}
