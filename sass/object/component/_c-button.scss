@@ -64,8 +64,13 @@ font-family: 'sippori-mincho', serif;
 }
 
 .c-subtitle-en {
+    font-family:'Lora', serif;
 color: var(--red);
-margin-top: rem(20);
+padding-top: rem(10);
+
+@include MidTab {
+    padding-top: rem(20);
+    }
 }
 
 .c-subtitle-en::before{
